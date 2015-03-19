@@ -21,6 +21,7 @@ public class StatusTwitter {
      */
     public static void main(String[] args) throws TwitterException {
         //paso2
+        //paso3
         ConfigurationBuilder cb = new ConfigurationBuilder();
         Twitter mitwitter = new TwitterFactory().getInstance();
         cb.setDebugEnabled(true)
@@ -37,4 +38,6 @@ public class StatusTwitter {
             System.out.println("@" + status.getUser().getScreenName() + ":" + status.getText());
         }
     }
+    /*no se que 
+    mas añadir*/
 }
